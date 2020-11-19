@@ -1,2 +1,2 @@
 ryeohan.com
-npm install hexo-generator-cname --save
+npm install http://ryeohan.com-cname --save
