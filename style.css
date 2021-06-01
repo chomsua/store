@@ -1,0 +1,263 @@
+
+body{
+
+    background-color: #f7f9ff;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*navigator*/
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+ul{
+    margin: 0;
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    font-size: 32px;
+}
+
+
+.nav-menu{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 700;
+    font-size:24px;
+    color: gray;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #2dc7ff;
+    transition: 0.3s;
+}
+
+/*dashboard*/
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.korean-comment{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    text-align: center;
+}
+
+.sample{
+    background-color: #beeeff;
+}
+
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+.highlight{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;   
+}
+
+.highlight:hover {
+    background-color: #beeeff;
+    color:black;
+    transition: none; 
+}
+
+.type1:hover{
+    background-color: #e8ff55;
+    transition: none; 
+}
+.type2:hover{
+    background-color: #ff9393;
+    transition: none; 
+}
+
+.english-comment{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight:50;
+    font-size: 24px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+/*recent works*/
+
+.recent-menu{
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+    color: #2dc7ff;
+   
+    text-align: right;
+    margin-top: 100px;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail{
+    width: 600px;
+}
+
+
+/* INFO Section */
+
+/* profile-section*/
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width: 500px;
+    margin-right: 60px;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Asap', sans-serif;
+    font-size: 32px;
+    color: #2dc7ff;
+}
+
+.introduction>p{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight:50;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/*photo-section*/
+
+.photo-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 100px;
+}
+
+#photo-picture1{
+    width: 600px;
+    margin-left: 60px;
+}
+
+#photo-picture2{
+    width: 600px;
+    margin-right: 60px;
+}
+
+.photo-container{
+    margin-bottom: auto;
+    
+}*/
+
+
+.photo-container>h1{
+    font-family: 'Asap', sans-serif;
+    font-weight:50;
+    font-size: 32px;
+    line-height:75px;
+}
+
+.photo-container>p{
+    font-size: 18px;
+    line-height: 42px;
+    width: 418px;
+
+    margin-bottom: 28px;
+}
+
+.photo-container>a{
+    font-size: 24px;
+    color: #fffffa;
+    text-decoration: none;
+
+    background: #2dc7ff;
+    border-radius: 8px;
+    padding: 12px 48px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.photo-container>a:hover{
+    transform: translateY(-8px);
+}
+
+.popup{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,5);
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    /*transition: all 0.2s;*/
+}
+
+.popup>a{
+    color: gray;
+    text-decoration: none;
+}
+.popup>p{
+  text-align: center;
+  color: #ff4646;
+}
+.popup:target{
+    opacity: 1;
+}
+
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact{
+    font-family: 'Asap', sans-serif;
+    font-size: 28px;
+    color: gray;
+}
+.links>a{
+    font-family: 'Asap', sans-serif;
+    font-size: 28px;
+}
